@@ -1,0 +1,19 @@
+.card{
+    width: 45%;
+    height: 225px;
+}
+
+#auth-box{
+    height: 900px;
+}
+
+
+@media all and (max-width:500px){
+    .card{
+        width: 80%;
+        height: 215px;
+    }
+    #auth-box{
+        height: 600px;
+    }
+}
